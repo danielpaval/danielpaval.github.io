@@ -1,3 +1,4 @@
-theme: jekyll-theme-minimal
+theme: minima
+#theme: jekyll-theme-minimal
 title: My Blog
 description: Bookmark this to keep an eye on my project updates!
