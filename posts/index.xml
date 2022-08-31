@@ -1,3 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on My Blog</title><link>https://danielpaval.github.io/github-pages-hugo/posts/</link><description>Recent content in Posts on My Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://danielpaval.github.io/github-pages-hugo/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Win32 Epoch (1/1/1601)</title><link>https://danielpaval.github.io/github-pages-hugo/posts/2022-06-18-win32-epoch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danielpaval.github.io/github-pages-hugo/posts/2022-06-18-win32-epoch/</guid><description>ℹ️ This is a quick blog post to mainly play with Jekyll.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on My Blog</title><link>https://danielpaval.github.io/github-pages-hugo/posts/</link><description>Recent content in Posts on My Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://danielpaval.github.io/github-pages-hugo/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Win32 Epoch (1/1/1601)</title><link>https://danielpaval.github.io/github-pages-hugo/posts/2022-06-18-win32-epoch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danielpaval.github.io/github-pages-hugo/posts/2022-06-18-win32-epoch/</guid><description>ℹ️ This is a quick blog post to mainly play with Jekyll.
 Not long ago Windows on my laptop reported that Skype was last used on 1/1/1601.. While I rarely use Skype now-a-days, it surely wasn&amp;rsquo;t that long! January 1st does hint at some kind of a date baseline, just like the Unix epoch, but why 1601?
-Of course, this was a quick answer to look up and it turns out to be that &amp;ldquo;1601 was the first year of the 400-year Gregorian calendar cycle at the time Windows NT was made&amp;rdquo; 1.</description></item></channel></rss>
+Of course, this was a quick answer to look up and it turns out to be that &amp;ldquo;1601 was the first year of the 400-year Gregorian calendar cycle at the time Windows NT was made&amp;rdquo; 1.</description><content>&lt;blockquote>
+&lt;p>ℹ️ This is a quick blog post to mainly play with Jekyll.&lt;/p>
+&lt;/blockquote>
+&lt;p>Not long ago Windows on my laptop reported that Skype was last used on &lt;em>1/1/1601&lt;/em>.. While I rarely use Skype now-a-days, it surely wasn&amp;rsquo;t that long! January 1&lt;!-- raw HTML omitted -->st&lt;!-- raw HTML omitted --> does hint at some kind of a date baseline, just like the Unix epoch, but why &lt;em>1601&lt;/em>?&lt;/p>
+&lt;p>&lt;img src="https://danielpaval.github.io/github-pages-hugo/assets/win32-epoch-cleanup.png" alt="Image description">&lt;/p>
+&lt;p>Of course, this was a quick answer to look up and it turns out to be that &lt;em>&amp;ldquo;1601 was the first year of the 400-year Gregorian calendar cycle at the time Windows NT was made&amp;rdquo;&lt;/em> &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. More specifically, &lt;em>&amp;ldquo;The &lt;code>FILETIME&lt;/code> structure records time in the form of 100-nanosecond intervals since January 1, 1601&amp;rdquo;&lt;/em> &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>While on the subject, it&amp;rsquo;s worth recalling that Unix time records 1-second intervals since January 1, 1970.&lt;/p>
+&lt;p>Actually, there seem to be &lt;a href="https://en.wikipedia.org/wiki/Epoch_(computing)#Notable_epoch_dates_in_computing">a lot more such Epoch dates&lt;/a>, not just the ubiquitous Unix and Windows ones.&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>&lt;a href="https://en.wikipedia.org/wiki/Epoch_(computing)#Notable_epoch_dates_in_computing">Epoch_(computing)#Notable_epoch_dates_in_computing&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>&lt;a href="https://devblogs.microsoft.com/oldnewthing/20090306-00/?p=18913">Why is the Win32 epoch January 1, 1601?&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></content></item></channel></rss>
