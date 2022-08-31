@@ -1,4 +1,4 @@
-baseURL = 'https://github.com/danielpaval/github-pages-hugo/'
+baseURL = 'https://danielpaval.github.io/github-pages-hugo/'
 languageCode = 'en-us'
 title = 'My Blog'
 theme = 'ananke'
