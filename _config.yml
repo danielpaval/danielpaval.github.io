@@ -1,3 +1,5 @@
 theme: minima
 title: My Blog
-description: Bookmark this to keep an eye on my project updates!
+description: TODO
+plugins:
+  - jekyll-sitemap
