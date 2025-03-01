@@ -1,7 +1,0 @@
-baseURL = 'https://danielpaval.github.io/github-pages-hugo/'
-languageCode = 'en-us'
-title = 'My Blog'
-# theme = 'ananke'
-# theme = 'PaperMod'
-theme = 'PaperModClone'
-# theme = 'terminal'
