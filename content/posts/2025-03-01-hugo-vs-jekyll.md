@@ -1,7 +1,6 @@
 ---
 title: "Hugo vs Jekyll"
 date: 2025-03-01
-draft: true
 ---
 
 I just got to make a bit of progress on building a technical blog which is something I started to think about a few years ago. Back at the beginning, the focus was on getting familiar with static site generators, mainly Jekyll and Hugo.

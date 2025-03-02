@@ -14,9 +14,10 @@ hugo server --baseURL=http://localhost:1313/
 
 # TODO
 
-- Use theme as Hugo module rather than Git submodule
-- Upgrade deplyment workflow ([example 1](https://github.com/modelcontextprotocol/specification/blob/main/.github/workflows/site.yml), [example 2](https://github.com/imfing/hextra-starter-template/blob/main/.github/workflows/pages.yaml))
-- Alternative themes: Hextra, Lotus Docs
+- [ ] Use theme as Hugo module rather than Git submodule
+- [ ] Upgrade deplyment workflow ([example 1](https://github.com/modelcontextprotocol/specification/blob/main/.github/workflows/site.yml), [example 2](https://github.com/imfing/hextra-starter-template/blob/main/.github/workflows/pages.yaml))
+- [ ] Alternative themes: Hextra, Lotus Docs
+- [ ] https://gohugo.io/content-management/image-processing/
 
 # Requirements
 
