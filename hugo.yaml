@@ -1,7 +1,7 @@
-baseURL: 'https://danielpaval.github.io/'
-languageCode: 'en-us'
-title: 'My Blog'
-theme: 'PaperMod'
+baseURL: https://danielpaval.github.io/
+languageCode: en-us
+title: My Blog
+
 params:
   homeInfoParams:
     Title: Hi there wave
@@ -11,14 +11,18 @@ params:
       url: "<link>"
     - name: "<platform 2>"
       url: "<link2>"
+
 markup:
   goldmark:
     renderHooks:
       image:
         enableDefault: true
+
 module:
   mounts:
   - source: assets
     target: assets
   - source: static
     target: assets
+  imports:
+  - path: github.com/adityatelange/hugo-PaperMod
