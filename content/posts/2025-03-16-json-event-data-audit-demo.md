@@ -117,7 +117,7 @@ achieved at application level using the
 
 Next, Elasticseach can be approached with multiple strategies:
 
-- Regular indexes
+- (Classic) Indexes
 - Data streams
 
 ## 3. Elasticsearch Indexes
@@ -125,3 +125,6 @@ Next, Elasticseach can be approached with multiple strategies:
 
 
 ## 4. Elasticsearch Data Streams
+
+## 5. Reports
+
