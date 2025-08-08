@@ -13,7 +13,7 @@ The task I put it up to was to help me show the hidden posts of this Hugo site, 
 
 Next, I asked Claude Code to apply the fix, which it did, but it confused me with this broken diff view of the changes I had to confirm:
 
-![Claude Code diff](/assets/2025-03-02-claude-code-hello-world/claude-code-diff.png)
+![Claude Code diff](claude-code-diff.png)
 
 I wonder if it might have been due to the post's Markdown table. It's a bug nonetheless, though understandable in this research preview of the CLI.
 

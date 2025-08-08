@@ -24,3 +24,6 @@ module:
     target: assets
   imports:
   - path: github.com/adityatelange/hugo-PaperMod
+
+ignoreLogs:
+  - warning-goldmark-raw-html

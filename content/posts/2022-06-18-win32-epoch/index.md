@@ -7,7 +7,7 @@ date: 2022-06-18
 
 Not long ago Windows on my laptop reported that Skype was last used on *1/1/1601*.. While I rarely use Skype now-a-days, it surely wasn't that long! January 1<sup>st</sup> does hint at some kind of a date baseline, just like the Unix epoch, but why *1601*?
 
-![Image description](/assets/win32-epoch-cleanup.png)
+![Image description](win32-epoch-cleanup.png)
 
 Of course, this was a quick answer to look up and it turns out to be that *"1601 was the first year of the 400-year Gregorian calendar cycle at the time Windows NT was made"*[^1]. More specifically, *"The `FILETIME` structure records time in the form of 100-nanosecond intervals since January 1, 1601"*[^2].
 

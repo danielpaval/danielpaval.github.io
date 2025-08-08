@@ -10,4 +10,4 @@ Let's see how Mermaid's CLI can generate images from diagrams:
 
 Output:
 
-![sequence_diagram.png](/assets/2025-04-14-mermaid-cli/sequence_diagram.png)
+![sequence_diagram.png](sequence_diagram.png)
