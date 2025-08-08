@@ -19,7 +19,7 @@ Command:
 structurizr export -workspace workspace.dsl -format static
 ```
 
-![structurizr-export-static.png](/assets/2025-05-11-structurizr-vs-likec4/structurizr-export-static.png)
+![structurizr-export-static.png](structurizr-export-static.png)
 
 Conlusions:
 - The static export of Structurizr is a very trimmed version of the Lite version, without the top menu, just the navigation feature starting with the top context diagram
