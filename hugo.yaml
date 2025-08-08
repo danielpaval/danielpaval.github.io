@@ -5,7 +5,7 @@ title: paval.io
 params:
   homeInfoParams:
     Title: Welcome to my *headspace*!
-    Content: Exploring technical topics with curiosity and sharing insights to help others get a head start.
+    Content: Exploring technical topics with curiosity and sharing insights to help you get a head start.
   socialIcons:
     - name: "LinkedIn"
       url: "https://www.linkedin.com/in/danielpaval/"
