@@ -1,12 +1,13 @@
 ---
 title: "Structurizr vs LikeC4"
 date: 2025-05-11
-draft: true
 ---
+
+> This WIP post compares Structurizr and LikeC4 with a focus on their export capabilities.
 
 # 2. Export
 
-## 2.1 Static Site
+## 2.1 Export to Static Site
 
 ### Structurizr
 
@@ -22,7 +23,7 @@ structurizr export -workspace workspace.dsl -format static
 ![structurizr-export-static.png](structurizr-export-static.png)
 
 Conlusions:
-- The static export of Structurizr is a very trimmed version of the Lite version, without the top menu, just the navigation feature starting with the top context diagram
+- ⚠️ The static export of Structurizr is a very trimmed version of the Lite version, without the top menu, just the navigation feature starting with the top context diagram
 
 ### LikeC4
 
@@ -30,11 +31,11 @@ Conlusions:
 likec4 build -o ./dist
 ```
 
-## 2.2 SVG/PNG
+## 2.2 Export to SVG/PNG
 
 ### Structurizr
 
-Structurizr CLI can export to SVG or PNG format via a Node.js and Puppeteer [workaround](https://github.com/structurizr/puppeteer):
+Structurizr CLI can export to `SVG` or `PNG` format via a Node.js and Puppeteer [workaround](https://github.com/structurizr/puppeteer):
 
 Prerequisites:
 - [Node.js](https://nodejs.org)
@@ -44,16 +45,13 @@ Prerequisites:
 node export-diagrams.js http://localhost:8080/workspace/diagrams svg
 ```
 
-```shell
-```
-
 ### LikeC4
 
 ```shell
 likec4 export png -o ./png
 ```
 
-## 2.3 Mermaid
+## 2.3 Export to Mermaid
 
 As Mermaid becomes the factor standard for diagrams-as-code, it is worth looking into converting Structurizr or LikeC4 diagrams in order to align with other Mermaid sources.
 
@@ -70,7 +68,7 @@ Notes
 mmdc -i structurizr-SystemContext.mmd -o structurizr-SystemContext.svg
 ```
 
-## 2.4 Other Formats
+## 2.4 Export to Other Formats
 
 ### Structurizr
 
