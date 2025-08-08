@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on paval.io</title><link>https://danielpaval.github.io/posts/</link><description>Recent content in Posts on paval.io</description><generator>Hugo -- 0.145.0</generator><language>en-us</language><lastBuildDate>Fri, 08 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://danielpaval.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>OpenAI Codex in GitHub Actions</title><link>https://danielpaval.github.io/posts/2025-08-08-openai-codex-in-github-actions/</link><pubDate>Fri, 08 Aug 2025 00:00:00 +0000</pubDate><guid>https://danielpaval.github.io/posts/2025-08-08-openai-codex-in-github-actions/</guid><description>&lt;p>Check out this &lt;a href="https://github.com/danielpaval/ai-workflow-use-cases">demo repo&lt;/a> that uses OpenAI Codex + MCPs in GitHub Actions:&lt;/p>
-&lt;p>&lt;img alt="github-actions-workflow.png" loading="lazy" src="https://danielpaval.github.io/posts/2025-08-08-openai-codex-in-github-actions/github-actions-workflow.png">&lt;/p></description></item><item><title>Mermaid CLI</title><link>https://danielpaval.github.io/posts/2025-04-14-mermaid-cli/</link><pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate><guid>https://danielpaval.github.io/posts/2025-04-14-mermaid-cli/</guid><description>&lt;p>Let&amp;rsquo;s see how Mermaid&amp;rsquo;s CLI can generate images from diagrams:&lt;/p>
+&lt;p>&lt;img alt="github-actions-workflow.png" loading="lazy" src="https://danielpaval.github.io/posts/2025-08-08-openai-codex-in-github-actions/github-actions-workflow.png">&lt;/p></description></item><item><title>Structurizr vs LikeC4</title><link>https://danielpaval.github.io/posts/2025-05-11-structurizr-vs-likec4/</link><pubDate>Sun, 11 May 2025 00:00:00 +0000</pubDate><guid>https://danielpaval.github.io/posts/2025-05-11-structurizr-vs-likec4/</guid><description>&lt;blockquote>
+&lt;p>This WIP post compares Structurizr and LikeC4 with a focus on their export capabilities.&lt;/p>&lt;/blockquote>
+&lt;h1 id="2-export">2. Export&lt;/h1>
+&lt;h2 id="21-export-to-static-site">2.1 Export to Static Site&lt;/h2>
+&lt;h3 id="structurizr">Structurizr&lt;/h3>
+&lt;p>Prerequisites:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://graphviz.org">Graphviz&lt;/a> dot&lt;/li>
+&lt;/ul>
+&lt;p>Command:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>structurizr export -workspace workspace.dsl -format static
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;img alt="structurizr-export-static.png" loading="lazy" src="https://danielpaval.github.io/posts/2025-05-11-structurizr-vs-likec4/structurizr-export-static.png">&lt;/p>
+&lt;p>Conlusions:&lt;/p>
+&lt;ul>
+&lt;li>⚠️ The static export of Structurizr is a very trimmed version of the Lite version, without the top menu, just the navigation feature starting with the top context diagram&lt;/li>
+&lt;/ul>
+&lt;h3 id="likec4">LikeC4&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>likec4 build -o ./dist
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="22-export-to-svgpng">2.2 Export to SVG/PNG&lt;/h2>
+&lt;h3 id="structurizr-1">Structurizr&lt;/h3>
+&lt;p>Structurizr CLI can export to &lt;code>SVG&lt;/code> or &lt;code>PNG&lt;/code> format via a Node.js and Puppeteer &lt;a href="https://github.com/structurizr/puppeteer">workaround&lt;/a>:&lt;/p></description></item><item><title>Mermaid CLI</title><link>https://danielpaval.github.io/posts/2025-04-14-mermaid-cli/</link><pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate><guid>https://danielpaval.github.io/posts/2025-04-14-mermaid-cli/</guid><description>&lt;p>Let&amp;rsquo;s see how Mermaid&amp;rsquo;s CLI can generate images from diagrams:&lt;/p>
 &lt;ol>
 &lt;li>&lt;code>npm install -g @mermaid-js/mermaid-cli&lt;/code>&lt;/li>
 &lt;li>&lt;code>mmdc -i .\sequence_diagram.mmd -o sequence_diagram.png&lt;/code>&lt;/li>
