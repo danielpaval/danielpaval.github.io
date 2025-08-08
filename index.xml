@@ -4,7 +4,7 @@
 &lt;li>&lt;code>mmdc -i .\sequence_diagram.mmd -o sequence_diagram.png&lt;/code>&lt;/li>
 &lt;/ol>
 &lt;p>Output:&lt;/p>
-&lt;p>&lt;img alt="sequence_diagram.png" loading="lazy" src="https://danielpaval.github.io/assets/2025-04-14-mermaid-cli/sequence_diagram.png">&lt;/p></description></item><item><title>Hello, Mermaid!</title><link>https://danielpaval.github.io/posts/2025-04-13-hello-mermaid/</link><pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate><guid>https://danielpaval.github.io/posts/2025-04-13-hello-mermaid/</guid><description>&lt;p>Let&amp;rsquo;s try Hugo&amp;rsquo;s support of mermaid diagrams:&lt;/p>
+&lt;p>&lt;img alt="sequence_diagram.png" loading="lazy" src="https://danielpaval.github.io/posts/2025-04-14-mermaid-cli/sequence_diagram.png">&lt;/p></description></item><item><title>Hello, Mermaid!</title><link>https://danielpaval.github.io/posts/2025-04-13-hello-mermaid/</link><pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate><guid>https://danielpaval.github.io/posts/2025-04-13-hello-mermaid/</guid><description>&lt;p>Let&amp;rsquo;s try Hugo&amp;rsquo;s support of mermaid diagrams:&lt;/p>
 &lt;pre class="mermaid">
 ---
 config:
@@ -116,5 +116,5 @@ with an objective evaluation of improvements I tried to rely on a core set of no
 &lt;/table></description></item><item><title>Win32 Epoch (1/1/1601)</title><link>https://danielpaval.github.io/posts/2022-06-18-win32-epoch/</link><pubDate>Sat, 18 Jun 2022 00:00:00 +0000</pubDate><guid>https://danielpaval.github.io/posts/2022-06-18-win32-epoch/</guid><description>&lt;blockquote>
 &lt;p>ℹ️ This is a quick blog post to mainly play with Jekyll.&lt;/p>&lt;/blockquote>
 &lt;p>Not long ago Windows on my laptop reported that Skype was last used on &lt;em>1/1/1601&lt;/em>.. While I rarely use Skype now-a-days, it surely wasn&amp;rsquo;t that long! January 1&lt;!-- raw HTML omitted -->st&lt;!-- raw HTML omitted --> does hint at some kind of a date baseline, just like the Unix epoch, but why &lt;em>1601&lt;/em>?&lt;/p>
-&lt;p>&lt;img alt="Image description" loading="lazy" src="https://danielpaval.github.io/assets/win32-epoch-cleanup.png">&lt;/p>
+&lt;p>&lt;img alt="Image description" loading="lazy" src="https://danielpaval.github.io/posts/2022-06-18-win32-epoch/win32-epoch-cleanup.png">&lt;/p>
 &lt;p>Of course, this was a quick answer to look up and it turns out to be that &lt;em>&amp;ldquo;1601 was the first year of the 400-year Gregorian calendar cycle at the time Windows NT was made&amp;rdquo;&lt;/em>&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. More specifically, &lt;em>&amp;ldquo;The &lt;code>FILETIME&lt;/code> structure records time in the form of 100-nanosecond intervals since January 1, 1601&amp;rdquo;&lt;/em>&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>.&lt;/p></description></item></channel></rss>
