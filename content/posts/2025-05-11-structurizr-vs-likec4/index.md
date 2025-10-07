@@ -47,6 +47,13 @@ node export-diagrams.js http://localhost:8080/workspace/diagrams svg
 
 ### LikeC4
 
+LikeC4 makes use of a similar browser-based workaround, but _only_ supports `PNG`s (⚠️ i.e. no support for `SVG`s):
+
+Prerequisites:
+- Playwright
+
+Export all diagrams to PNG:
+
 ```shell
 likec4 export png -o ./png
 ```
@@ -68,8 +75,17 @@ Notes
 mmdc -i structurizr-SystemContext.mmd -o structurizr-SystemContext.svg
 ```
 
+### LikeC4
+
+```shell
+likec4 gen mmd
+likec4 gen mermaid
+```
+
 ## 2.4 Export to Other Formats
 
 ### Structurizr
 
 - Stricturizr CLI can export to D2 format, but the output errors out when parsed by the D2 CLI: `err: failed to compile -: multiboard output cannot be written to stdout`
+
+### LikeC4
