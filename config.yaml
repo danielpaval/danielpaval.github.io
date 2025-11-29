@@ -16,7 +16,7 @@ params:
     - name: "LinkedIn"
       url: "https://www.linkedin.com/in/danielpaval/"
   search:
-    enable: true
+    enabled: true
 
 markup:
   goldmark:
@@ -52,12 +52,13 @@ languages:
       series: series
     menu:
       main:
-        - name: Search
+        - name: "🔎︎ Search"
           url: search/
           weight: 10
-        - name: Tags
-          url: tags/
-          weight: 10
-        - name: Timeline
+        - name: "🗓 Calendar"
           url: archives/
-          weight: 20
+          weight: 20        
+        - name: "ⵌ Tags"
+          url: tags/
+          weight: 30
+        
