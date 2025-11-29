@@ -7,6 +7,7 @@ params:
   showtoc: true
   ShowReadingTime: true
   ShowShareButtons: true
+  ShowBreadCrumbs: true
   author: Daniel Paval
   homeInfoParams:
     Title: Welcome to my *headspace*!
@@ -57,3 +58,6 @@ languages:
         - name: Tags
           url: tags/
           weight: 10
+        - name: Timeline
+          url: archives/
+          weight: 20
