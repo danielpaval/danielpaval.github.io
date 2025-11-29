@@ -3,12 +3,18 @@ languageCode: en-us
 title: paval.io
 
 params:
+  defaultTheme: "light"
+  showtoc: true
+  ShowReadingTime: true
+  author: Daniel Paval
   homeInfoParams:
     Title: Welcome to my *headspace*!
     Content: Exploring technical topics with curiosity and sharing insights to help you get a head start.
   socialIcons:
     - name: "LinkedIn"
       url: "https://www.linkedin.com/in/danielpaval/"
+  search:
+    enable: true
 
 markup:
   goldmark:
@@ -27,3 +33,26 @@ module:
 
 ignoreLogs:
   - warning-goldmark-raw-html
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Search
+          url: search/
+          weight: 10
+        - name: Tags
+          url: tags/
+          weight: 10
