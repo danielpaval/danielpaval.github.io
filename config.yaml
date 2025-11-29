@@ -6,6 +6,7 @@ params:
   defaultTheme: "light"
   showtoc: true
   ShowReadingTime: true
+  ShowShareButtons: true
   author: Daniel Paval
   homeInfoParams:
     Title: Welcome to my *headspace*!
