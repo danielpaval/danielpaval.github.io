@@ -1,6 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on paval.io</title><link>https://danielpaval.github.io/posts/</link><description>Recent content in Posts on paval.io</description><generator>Hugo -- 0.145.0</generator><language>en-us</language><lastBuildDate>Tue, 07 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://danielpaval.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Pull Request Code Review in GitHub Actions</title><link>https://danielpaval.github.io/posts/2025-08-20-pull-request-code-review-in-github-actions/</link><pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate><guid>https://danielpaval.github.io/posts/2025-08-20-pull-request-code-review-in-github-actions/</guid><description>&lt;p>As a followup to &lt;a href="https://danielpaval.github.io/posts/2025-08-08-openai-codex-in-github-actions/">OpenAI Codex CLI in GitHub Actions&lt;/a> this new workflow automates pull request code reviews:&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on paval.io</title><link>https://danielpaval.github.io/posts/</link><description>Recent content in Posts on paval.io</description><generator>Hugo -- 0.145.0</generator><language>en-us</language><lastBuildDate>Sat, 29 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://danielpaval.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Pull Request Code Review in GitHub Actions</title><link>https://danielpaval.github.io/posts/2025-08-20-pull-request-code-review-in-github-actions/</link><pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate><guid>https://danielpaval.github.io/posts/2025-08-20-pull-request-code-review-in-github-actions/</guid><description>&lt;p>As a followup to &lt;a href="https://danielpaval.github.io/posts/2025-08-08-openai-codex-in-github-actions/">OpenAI Codex CLI in GitHub Actions&lt;/a> this new workflow automates pull request code reviews:&lt;/p>
 &lt;p>&lt;img alt="pr-review-comment.png" loading="lazy" src="https://danielpaval.github.io/posts/2025-08-20-pull-request-code-review-in-github-actions/pr-review-comment.png">&lt;/p>
-&lt;p>Check out this &lt;a href="https://github.com/danielpaval/ai-workflow-use-cases/blob/main/.github/workflows/codex-pr-review.yml">demo repo&lt;/a> that uses OpenAI Codex CLI + MCPs in GitHub Actions.&lt;/p></description></item><item><title>Embedding Apache Superset Dashboards</title><link>https://danielpaval.github.io/posts/2025-10-07-superset-embed-demo/</link><pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate><guid>https://danielpaval.github.io/posts/2025-10-07-superset-embed-demo/</guid><description>&lt;p>A demonstration project showing how to embed Apache Superset dashboards into external applications using the Superset SDK.&lt;/p>
+&lt;p>Check out this &lt;a href="https://github.com/danielpaval/ai-workflow-use-cases/blob/main/.github/workflows/codex-pr-review.yml">demo repo&lt;/a> that uses OpenAI Codex CLI + MCPs in GitHub Actions.&lt;/p></description></item><item><title>Markdown to Confluence Sync Workflow</title><link>https://danielpaval.github.io/posts/2025-11-29-markdown-to-confluence-sync/</link><pubDate>Sat, 29 Nov 2025 00:00:00 +0000</pubDate><guid>https://danielpaval.github.io/posts/2025-11-29-markdown-to-confluence-sync/</guid><description>&lt;p>I wanted to jot down a few notes about the &lt;a href="https://github.com/danielpaval/markdown-to-confluence/blob/main/.github/workflows/sync-to-confluence.yml">&lt;code>Sync to Confluence&lt;/code> workflow&lt;/a> that keeps the &lt;code>markdown-to-confluence&lt;/code> docs mirrored in Atlassian.&lt;/p>
+&lt;h2 id="why-its-handy">Why it&amp;rsquo;s handy&lt;/h2>
+&lt;p>Keeping authoring in Markdown means the docs stay right beside the codebase, so assistants like GitHub Copilot (and other IDE-aware agents) can ingest real project guidance without leaving the editor. The same repo search powers autocomplete, inline explanations, and context-aware chat, which is way faster than switching to a browser tab and hunting through Confluence. Non-developers still get the polished Confluence pages produced by the workflow, so stakeholders have a familiar place to read without digging into Git.&lt;/p></description></item><item><title>Embedding Apache Superset Dashboards</title><link>https://danielpaval.github.io/posts/2025-10-07-superset-embed-demo/</link><pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate><guid>https://danielpaval.github.io/posts/2025-10-07-superset-embed-demo/</guid><description>&lt;p>A demonstration project showing how to embed Apache Superset dashboards into external applications using the Superset SDK.&lt;/p>
 &lt;h2 id="overview">Overview&lt;/h2>
 &lt;p>&lt;a href="https://superset.apache.org/">Apache Superset&lt;/a> is a powerful open-source data exploration and visualization platform. This demo project showcases how to embed Superset dashboards into a Spring Boot application, enabling seamless integration of analytics dashboards into your own applications.&lt;/p>
 &lt;p>&lt;strong>Repository&lt;/strong>: &lt;a href="https://github.com/danielpaval/superset-embed-demo">danielpaval/superset-embed-demo&lt;/a>&lt;/p>
@@ -149,7 +151,63 @@ with an objective evaluation of improvements I tried to rely on a core set of no
 &lt;td>✍️ Blogs, simple websites, GitHub Pages&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Win32 Epoch (1/1/1601)</title><link>https://danielpaval.github.io/posts/2022-06-18-win32-epoch/</link><pubDate>Sat, 18 Jun 2022 00:00:00 +0000</pubDate><guid>https://danielpaval.github.io/posts/2022-06-18-win32-epoch/</guid><description>&lt;blockquote>
+&lt;/table></description></item><item><title>Anthropic Model Context Protocol (MCP)</title><link>https://danielpaval.github.io/posts/2025-02-28-anthropic-mcp/</link><pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate><guid>https://danielpaval.github.io/posts/2025-02-28-anthropic-mcp/</guid><description>&lt;h1 id="elasticsearch">Elasticsearch&lt;/h1>
+&lt;ol>
+&lt;li>Install Python&lt;/li>
+&lt;li>Install &lt;code>uv&lt;/code>: &lt;code>pip install uv&lt;/code>&lt;/li>
+&lt;li>Clone &lt;a href="https://github.com/cr7258/elasticsearch-mcp-server">https://github.com/cr7258/elasticsearch-mcp-server&lt;/a>&lt;/li>
+&lt;li>Setup Claude&lt;/li>
+&lt;/ol>
+&lt;h2 id="uvx-setup">uvx Setup&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-json" data-lang="json">&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;mcpServers&amp;#34;&lt;/span>: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;elasticsearch&amp;#34;&lt;/span>: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;command&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;uvx&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;args&amp;#34;&lt;/span>: [
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;elasticsearch-mcp-server&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;env&amp;#34;&lt;/span>: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;ELASTIC_HOST&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;http://localhost:9200&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;ELASTIC_USERNAME&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;elastic&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;ELASTIC_PASSWORD&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;changeme&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="uv-setup">uv Setup&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-json" data-lang="json">&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;mcpServers&amp;#34;&lt;/span>: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;elasticsearch&amp;#34;&lt;/span>: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;command&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;uv&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;args&amp;#34;&lt;/span>: [
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;--directory&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;C:\\Repositories\\mcp\\elasticsearch-mcp-server&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;run&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;elasticsearch-mcp-server&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;env&amp;#34;&lt;/span>: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;ELASTIC_HOST&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;http://localhost:9200&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;ELASTIC_USERNAME&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;elastic&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;ELASTIC_PASSWORD&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;changeme&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="file-system">File System&lt;/h1>
+&lt;h2 id="setup">Setup&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-json" data-lang="json">&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;mcpServers&amp;#34;&lt;/span>: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;filesystem&amp;#34;&lt;/span>: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;command&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;npx&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">&amp;#34;args&amp;#34;&lt;/span>: [
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;-y&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;@modelcontextprotocol/server-filesystem&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;C:\\Users\\dani\\Desktop&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="atlassian">Atlassian&lt;/h1></description></item><item><title>Win32 Epoch (1/1/1601)</title><link>https://danielpaval.github.io/posts/2022-06-18-win32-epoch/</link><pubDate>Sat, 18 Jun 2022 00:00:00 +0000</pubDate><guid>https://danielpaval.github.io/posts/2022-06-18-win32-epoch/</guid><description>&lt;blockquote>
 &lt;p>ℹ️ This is a quick blog post to mainly play with Jekyll.&lt;/p>&lt;/blockquote>
 &lt;p>Not long ago Windows on my laptop reported that Skype was last used on &lt;em>1/1/1601&lt;/em>.. While I rarely use Skype now-a-days, it surely wasn&amp;rsquo;t that long! January 1&lt;!-- raw HTML omitted -->st&lt;!-- raw HTML omitted --> does hint at some kind of a date baseline, just like the Unix epoch, but why &lt;em>1601&lt;/em>?&lt;/p>
 &lt;p>&lt;img alt="Image description" loading="lazy" src="https://danielpaval.github.io/posts/2022-06-18-win32-epoch/win32-epoch-cleanup.png">&lt;/p>
